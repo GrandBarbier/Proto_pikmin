@@ -25,6 +25,6 @@ public class SawRot : MonoBehaviour
     {
         //rb.AddForce(100,100,100);
         
-        other.gameObject.GetComponent<Rigidbody>().AddForce((other.transform.position - transform.position )* 6000);
+        other.gameObject.GetComponent<Rigidbody>().AddForce((other.transform.position - transform.position )* 2000);
     }
 }

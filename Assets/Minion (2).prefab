@@ -485,10 +485,10 @@ GameObject:
   - component: {fileID: 5207922325095338172}
   - component: {fileID: 4123413448478487961}
   - component: {fileID: 8982395096714980514}
-  - component: {fileID: 7161593180708351522}
+  - component: {fileID: 5407136004631668796}
   m_Layer: 0
   m_Name: Minion (2)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -542,13 +542,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 0.75
   m_Radius: 0.32
-  m_SlopeLimit: 45
-  m_StepOffset: 0
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
+  m_Height: 0.75
+  m_Direction: 1
   m_Center: {x: 0, y: 0.44, z: 0}
 --- !u!114 &5407136004631668796
 MonoBehaviour:
@@ -562,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcc038efbb6432c48a5975f178613145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 4
 --- !u!1 &5166627741550368817
 GameObject:
   m_ObjectHideFlags: 0
