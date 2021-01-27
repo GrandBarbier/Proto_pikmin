@@ -542,11 +542,15 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.29
-  m_Height: 0.90805984
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.3946668, z: 0}
---- !u!114 &7161593180708351522
+  serializedVersion: 2
+  m_Height: 0.75
+  m_Radius: 0.32
+  m_SlopeLimit: 45
+  m_StepOffset: 0
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.44, z: 0}
+--- !u!114 &5407136004631668796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
