@@ -50,7 +50,7 @@ public class MultipleTargetCam : MonoBehaviour
 
     void Zoom()
     {
-        float newZoom = Mathf.Lerp(maxZoom, minZoom, GetGreatestDistanceX() + GetGreatestDistanceZ() / zoomLimit);
+        float newZoom = Mathf.Lerp(maxZoom, minZoom, GetGreatestDistance() / zoomLimit);
         cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, newZoom, Time.deltaTime);
     }
 
@@ -63,19 +63,8 @@ public class MultipleTargetCam : MonoBehaviour
 
         transform.position = Vector3.SmoothDamp(transform.position, newPosition, ref velocity, smoothTime);
     }
-
-    float GetGreatestDistanceZ()
-    {
-        var bounds = new Bounds(targets[0].position, Vector3.zero);
-        for (int i = 0; i < targets.Count; i++)
-        {
-            bounds.Encapsulate(targets[i].position);
-        }
-
-        return bounds.size.z;
-    }
     
-    float GetGreatestDistanceX()
+    float GetGreatestDistance()
     {
         var bounds = new Bounds(targets[0].position, Vector3.zero);
         for (int i = 0; i < targets.Count; i++)
@@ -83,7 +72,7 @@ public class MultipleTargetCam : MonoBehaviour
             bounds.Encapsulate(targets[i].position);
         }
 
-        return bounds.size.x;
+        return bounds.size.x + bounds.size.z;
     }
 
     Vector3 GetCenterPoint()
