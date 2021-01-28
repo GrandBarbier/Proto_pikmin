@@ -12,6 +12,7 @@
           <e p="DeathManager.cs" t="Include" />
           <e p="DestroyParticle.cs" t="Include" />
           <e p="Flamme.cs" t="Include" />
+          <e p="HydraulicPress.cs" t="Include" />
           <e p="LanceFlamme.cs" t="Include" />
           <e p="MovementCC.cs" t="Include" />
           <e p="MovementsRb.cs" t="Include" />
