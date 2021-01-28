@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\luffe\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\luffe\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proto_pikmin.-1282228339.00" t="ExcludeRecursive" />
-    <e p="D:\COURS\Unity\Git\Proto_pikmin" t="IncludeRecursive">
+    <e p="C:\Users\Alan Gryfs\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alan Gryfs\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_Proto_pikmin.-1311565440.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alan Gryfs\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="D:\GitKraken\Proto_pikmin" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Acid.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Acid.cs" t="Include" />
+          <e p="Conveyor.cs" t="Include" />
           <e p="MovementCC.cs" t="Include" />
           <e p="MovementsRb.cs" t="Include" />
           <e p="MultipleTargetCam.cs" t="Include" />
           <e p="Pendulum.cs" t="Include" />
           <e p="SawRot.cs" t="Include" />
+          <e p="Victory.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -45,7 +48,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="Victory.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
