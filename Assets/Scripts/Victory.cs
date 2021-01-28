@@ -29,24 +29,31 @@ public class Victory : MonoBehaviour
         }
 
         victory.SetActive(false);
+        lose.SetActive(false);
+        
+        targetsCam = Camera.main.gameObject.GetComponent<MultipleTargetCam>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        score = score + 1;
-        targets.Remove(other.gameObject);
-        targetsCam.targets.Remove(other.transform);
-        Destroy(other.gameObject);
+        if (other.tag == "Player")
+        {
+            score = score + 1;
+            other.gameObject.GetComponent<DeathManager>().Death();
+        }
     }
     
     void Update()
     {
-        if (targets.Count <= 0)
+        if (targets.Count <= 0 && score > 0)
         {
             victory.SetActive(true);
+        }
+        else if (targets.Count <= 0)
+        {
+            lose.SetActive(true);
         }
         
         Score.text = "Score : " + score;
     }
-    
 }
