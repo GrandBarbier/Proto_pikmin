@@ -14,9 +14,7 @@ public class Acid : MonoBehaviour
    {
        if (other.tag == "Player")
        {
-           victory.targets.Remove(other.gameObject);
-           targetsCam.targets.Remove(other.transform);
-           Destroy(other.gameObject);
+           other.gameObject.GetComponent<DeathManager>().Death();
        }
    }
 }

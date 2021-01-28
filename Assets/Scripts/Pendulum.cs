@@ -19,6 +19,7 @@ public class Pendulum : MonoBehaviour
     {
         start = PendulumRotation(angle);
         end = PendulumRotation(-angle);
+        
     }
 
     
