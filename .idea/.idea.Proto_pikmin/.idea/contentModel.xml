@@ -9,11 +9,17 @@
         <e p="Scripts" t="Include">
           <e p="Acid.cs" t="Include" />
           <e p="Conveyor.cs" t="Include" />
+<<<<<<< HEAD
           <e p="DeathManager.cs" t="Include" />
+=======
+          <e p="Flamme.cs" t="Include" />
+          <e p="LanceFlamme.cs" t="Include" />
+>>>>>>> main
           <e p="MovementCC.cs" t="Include" />
           <e p="MovementsRb.cs" t="Include" />
           <e p="MultipleTargetCam.cs" t="Include" />
           <e p="Pendulum.cs" t="Include" />
+          <e p="Press.cs" t="Include" />
           <e p="SawRot.cs" t="Include" />
           <e p="Victory.cs" t="Include" />
         </e>
