@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2435233894940337045}
   - component: {fileID: 2435233894940337042}
   m_Layer: 0
-  m_Name: Checkpoint
+  m_Name: Checkpoint Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,10 +60,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8188f162fea23c4294b70327d64ce56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetsCam: {fileID: 0}
   targets: []
   victory: {fileID: 0}
+  lose: {fileID: 0}
   Score: {fileID: 0}
   score: 0
+  scoreMin: 0
 --- !u!1 &4963209073360002268
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +125,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: d2e8f3d684933704f90acc4cb4893d86, type: 3}
+  - {fileID: 2100000, guid: 0e2dd8104fa01664fb03c2776e7155c3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -201,7 +204,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: d2e8f3d684933704f90acc4cb4893d86, type: 3}
+  - {fileID: 2100000, guid: f557b45bc420aec4d80d6e9a4186aa24, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -280,7 +283,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: d2e8f3d684933704f90acc4cb4893d86, type: 3}
+  - {fileID: 2100000, guid: 24a923739ba2a6b4b960fce41faeb35e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
