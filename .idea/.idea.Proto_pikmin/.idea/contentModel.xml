@@ -20,6 +20,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Acid.cs" t="Include" />
+          <e p="AudioPlayer.cs" t="Include" />
           <e p="Conveyor.cs" t="Include" />
           <e p="DeathManager.cs" t="Include" />
           <e p="DestroyParticle.cs" t="Include" />
