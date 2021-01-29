@@ -14,6 +14,6 @@ public class Grinder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(transform.forward, speed);
+        transform.Rotate(0,0,speed);
     }
 }
