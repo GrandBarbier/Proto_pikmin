@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ public class DeathManager : MonoBehaviour
     public MultipleTargetCam targetsCam;
 
     public GameObject explosion;
+
+    public bool crushable;
     
     void Start()
     {
@@ -24,5 +27,21 @@ public class DeathManager : MonoBehaviour
         Instantiate(explosion, transform.position, Quaternion.identity);
         
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Crush")
+        {
+            crushable = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Crush" && crushable)
+        {
+            crushable = false;
+        }
     }
 }
