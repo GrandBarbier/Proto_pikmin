@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LanceFlamme : MonoBehaviour
 {
+    public float speed;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,6 @@ public class LanceFlamme : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0f, 0.3f,0f);
+        transform.Rotate(0f, speed,0f);
     }
 }
