@@ -15802,6 +15802,9 @@ MonoBehaviour:
   minZoom: 100
   maxZoom: 20
   zoomLimit: 50
+  maxPlayer: 0
+  maxPlayerText: {fileID: 0}
+  actualPlayerText: {fileID: 0}
 --- !u!1001 &1744738766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15867,7 +15870,7 @@ PrefabInstance:
     - target: {fileID: 5536847366276101447, guid: a385ada471e146741b9b6ff94cd72225,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.69
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 5536847366276101447, guid: a385ada471e146741b9b6ff94cd72225,
         type: 3}
