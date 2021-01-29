@@ -23,8 +23,11 @@
       <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Library</Path>
+<<<<<<< HEAD
       <Path>Logs</Path>
       <Path>Temp</Path>
+=======
+>>>>>>> main
       <Path>obj</Path>
     </explicitExcludes>
   </component>

@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\luffe\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\luffe\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proto_pikmin.-1282228339.00" t="ExcludeRecursive" />
-    <e p="D:\COURS\Unity\Git\Proto_pikmin" t="IncludeRecursive">
+    <e p="C:\Users\Alan Gryfs\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alan Gryfs\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_Proto_pikmin.-1311565440.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alan Gryfs\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="D:\GitKraken\Proto_pikmin" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Lava_Flowing_Shader" t="Include">
+          <e p="ReadMe.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="ScrollingUVs_Layers.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Diffuse_Lava_Distort.shader" t="Include" />
+            <e p="Unlit_Lava_Distort.shader" t="Include" />
+            <e p="Unlit_Lava_Distort_Transparent.shader" t="Include" />
+            <e p="Unlit_Lava_Simple.shader" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Acid.cs" t="Include" />
           <e p="Conveyor.cs" t="Include" />
@@ -13,6 +26,7 @@
           <e p="DestroyParticle.cs" t="Include" />
           <e p="Flamme.cs" t="Include" />
           <e p="LanceFlamme.cs" t="Include" />
+          <e p="LavaMovement.cs" t="Include" />
           <e p="MovementCC.cs" t="Include" />
           <e p="MovementsRb.cs" t="Include" />
           <e p="MultipleTargetCam.cs" t="Include" />
