@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
+using TMPro;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
@@ -21,13 +22,22 @@ public class MultipleTargetCam : MonoBehaviour
     public float zoomLimit = 50f;
     private Camera cam;
 
+    public int maxPlayer;
+   // public int actualPlayer;
+    public TextMeshProUGUI maxPlayerText;
+    public TextMeshProUGUI actualPlayerText;
+    
+    
     private void Start()
     {
+        maxPlayer = 0;
+        
         cam = GetComponent<Camera>();
         
         foreach (GameObject players in GameObject.FindGameObjectsWithTag("Player") )
         {
             targets.Add(players.transform);
+            maxPlayer += 1;
         }
     }
 
@@ -42,7 +52,10 @@ public class MultipleTargetCam : MonoBehaviour
         {
             return;
         }
-       
+        
+        maxPlayerText.text = maxPlayer.ToString();
+        actualPlayerText.text = targets.Count.ToString();
+        
         Move();
 
         Zoom();
