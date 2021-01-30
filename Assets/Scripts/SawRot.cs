@@ -24,7 +24,10 @@ public class SawRot : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //rb.AddForce(100,100,100);
+        if (other.tag == "Player")
+        {
+            other.gameObject.GetComponent<Rigidbody>().AddForce((other.transform.position - transform.position )* 2000);
+        }
         
-        other.gameObject.GetComponent<Rigidbody>().AddForce((other.transform.position - transform.position )* 2000);
     }
 }

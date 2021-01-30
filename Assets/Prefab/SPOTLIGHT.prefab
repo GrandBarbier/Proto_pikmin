@@ -42,20 +42,20 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.79893523, g: 0.8113208, b: 0.5549128, a: 1}
-  m_Intensity: 20
-  m_Range: 10
-  m_SpotAngle: 103.5
-  m_InnerSpotAngle: 21.80208
+  m_Color: {r: 0.754717, g: 0.70289284, b: 0.44499823, a: 1}
+  m_Intensity: 50
+  m_Range: 15
+  m_SpotAngle: 151.94115
+  m_InnerSpotAngle: 105.88234
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
     m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NearPlane: 3.49
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -85,12 +85,12 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
 --- !u!1 &4002573737952728109
 GameObject:
@@ -422,7 +422,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: 9d72d4f097a21524d90d86e6381fdce9, type: 3}
+  - {fileID: 2100000, guid: fd79d80da4cbc0b4eb798ae6eab1b848, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

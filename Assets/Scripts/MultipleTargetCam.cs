@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
+//using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
-[RequireComponent(typeof(Camera))]
+//[RequireComponent(typeof(Camera))]
 public class MultipleTargetCam : MonoBehaviour
 {
     public List<Transform> targets;

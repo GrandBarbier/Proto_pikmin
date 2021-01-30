@@ -23,4 +23,15 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Map 2");
     }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
+
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 }

@@ -6,14 +6,14 @@ public class Pendulum : MonoBehaviour
 {
     private Quaternion start, end;
 
-    [SerializeField, Range(0.0f, 360f)] 
-    private float angle = 90f;
     
-    [SerializeField, Range(0.0f, 5f)] 
-    private float speed = 2f;
+    public float angle = 90f;
     
-    [SerializeField, Range(0.0f, 5f)] 
-    private float startTime = 0f;
+    
+    public float speed = 2f;
+    
+    
+    public float startTime = 0f;
     
     void Start()
     {
